@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Insert Book</h2>
+	<form action="InsertServlet" method="get">
+		ID : <input type="text" name="id"><br> <br> BooK
+		Name : <input type="text" name="name"><br> <br> Book
+		Price : <input type="text" name="price"><br> <br>
+		Author : <input type="text" name="author"><br> <br>
+		<input type="submit" value="SUBMIT">
+	</form>
+	<hr>
+
+	<h2>Delete Book</h2>
+	<form action="DeleteServlet" method="get">
+		Id : <input type="text" name="did"><br> <br> <input
+			type="submit" value="SUBMIT">
+	</form>
+	<hr>
+	<h2>Update Book</h2>
+	<form action="UpdateServlet" method="get">
+		Id : <input type="text" name="eid"><br>
+		<br> UName : <input type="text" name="uname"><br>
+		<br> UPrice : <input type="text" name="uprice"><br>
+		<br> UAuthor: <input type="text" name="uauthor"><br>
+		<br><input type="submit" value="SUBMIT">
+		<hr>
+	</form>
+	<h2>Display Books</h2>
+	<form action="ReadServlet" method="get">
+	<a href="ReadServlet"><b>Show All Books</b></a>
+	</form>
+	<hr>
+
+
+
+
+
+</body>
+</html>
